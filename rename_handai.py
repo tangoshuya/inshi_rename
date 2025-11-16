@@ -15,19 +15,6 @@ files = glob.glob(search_path)
 files.sort()
     
 for i, f in enumerate(files):
-
-
-    # if j == 2020:
-    #     j = j + 1
-    #     n = n + 1
-    
-    if n <= 30:
-        m = "H" + str(n)
-    if n == 31:
-        m = "H31·R1"
-    if n >= 32:
-        m = "R" + str(n - 30)
-
     
 #############################変えるところ##########################
     name_to =  "阪大_問題_" + str(j) + "(" + m + ")年実施"
